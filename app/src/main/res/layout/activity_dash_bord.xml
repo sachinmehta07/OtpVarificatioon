@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".dashBord">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/smile"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="યા ભાઈ તમે સફળતાપૂર્વક લોગીન કર્યું હવે તમે એપનો આનંદ માણી શકશો અને હવે તમારે 5000 ચૂકવવા પડશે"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+</LinearLayout>
